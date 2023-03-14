@@ -1,0 +1,19 @@
+{
+    "extends": "@tsconfig/node16-strictest-esm/tsconfig.json",
+    "compilerOptions": {
+        "lib": [
+            "esnext"
+        ],
+        "noEmit": true,
+        "resolveJsonModule": true,
+        "exactOptionalPropertyTypes": false
+    },
+    "include": [
+        "./src/**/*",
+        "__test__/**/*"
+    ],
+    "exclude": [
+        "test",
+        "bin"
+    ]
+}
