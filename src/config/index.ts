@@ -20,7 +20,7 @@ export interface IConfig {
 }
 
 const defaultConfig: IConfig = {
-  host: "https://sore-cyan-bull-tutu.cyclic.app",
+  host: "::",
   port: 9000,
   expire_timeout: 5000,
   alive_timeout: 60000,
