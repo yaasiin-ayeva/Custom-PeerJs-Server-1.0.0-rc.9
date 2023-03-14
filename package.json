@@ -66,7 +66,7 @@
     "check": "tsc --noEmit",
     "test": "npm run lint && jest",
     "coverage": "jest --coverage",
-    "start": "node dist/bin/peerjs.js --port 9000",
+    "start": "node dist/bin/peerjs.js --port 3000",
     "dev": "nodemon --watch src -e ts --exec npm run build && npm run start",
     "semantic-release": "semantic-release"
   },
