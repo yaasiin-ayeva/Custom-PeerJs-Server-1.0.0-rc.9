@@ -21,7 +21,7 @@ export interface IConfig {
 
 const defaultConfig: IConfig = {
   host: "::",
-  port: 9000,
+  port: 3000,
   expire_timeout: 5000,
   alive_timeout: 60000,
   key: "peerjs",
